@@ -17,7 +17,6 @@ public class LoginTest {
         driver = new ChromeDriver();
         driver.manage().window().maximize();
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
-        System.out.println("TESTTTTTTTTTTTT");
     }
 
     @AfterMethod
